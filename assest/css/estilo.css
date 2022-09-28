@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho{
+   
+    width: 1440px;
+    height: 120px;       
+    background: #010101;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+   
+   
+}
+
+.tituloCabecalho{   
+    font-size: 22px;
+    line-height: 30px;
+    color: #F1F1F1;
+    display: flex;
+   
+}
+
+.linkEntrar{
+    
+}
+
+.link{   
+    font-size: 14px;        
+    color: #C4C4C4;
+   
+}
