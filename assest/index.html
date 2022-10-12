@@ -5,28 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
     <title>Cursos de tecnologia</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 
 <body>
-    <header class="cabecalho">
-        <div class="tituloCabecalho">
-            <div class="logoTitulo">
-                <img src="../assest/imagens/education.png" alt="logo do titulo">
-                <h1 class="titulo">Plataforma de Cursos</h1>
+    <header class="containerHeader">
+        <div class="header">
+            <div class="containerTitulo">
+                <img src="../assest/imagens/education.png" alt="logo do curso">
+                <h1 class="tituloSite">plataforma de cursos</h1>
             </div>
-            <div class="caixa-lista">
-                <li class="lista"><a href="#" class="link">Fale conosco</a></li>
-                <li class="lista"><a href="#" class="link">Sobre</a></li>
-                <li class="lista"><a href="#" class="link"  title="entrar para os cursos">Entrar</a></li>
-                
-
-            </div>
-           
+            <div class="menuIcon">
+                <img src="../assest/imagens/Aula responsividade/menu-hambuger(1) 1.svg" alt="" onclick="showMenu()">
+            </div>            
+        
+        <nav class="menuContainer" id="menu">
+            <ul class="menu">
+                <li><a href="#" class="menuItem">Fale conosco</a></li>
+                <li><a href="#" class="menuItem">Sobre</a></li>
+                <li><a href="#" class="menuItem">Entrar</a></li>
+            </ul>
+        </nav>
         </div>
     </header>
+
+    <script src="../assest/scripts/menu.js"></script>
+   
 
 
 </body>
